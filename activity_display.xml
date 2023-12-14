@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".display">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="361dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="34dp"
+        android:text="The Data Found in the Employee Table are :"
+        android:textColor="#2C41B6"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="356dp"
+        android:layout_height="447dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="108dp"
+        android:bufferType="spannable"
+        android:isScrollContainer="true"
+        android:lines="100"
+        android:textColor="#3446AC"
+        android:textSize="16sp"
+        android:textStyle="normal|italic" />
+</RelativeLayout>

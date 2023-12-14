@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addd"
+        android:icon="@drawable/insert"
+        android:title="Insert " />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Search " />
+    <item
+        android:id="@+id/modify"
+        android:icon="@drawable/modify"
+        android:title="Modify " />
+    <item
+        android:id="@+id/displayy"
+        android:icon="@drawable/display2"
+        android:title="display all" />
+</menu>

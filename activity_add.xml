@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Enter The ID :"
+        android:textAlignment="gravity"
+        android:textColor="#F5005596"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="123"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:text="Enter The Name :"
+        android:textAlignment="gravity"
+        android:textColor="#266FA5"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="ali"
+        android:inputType="textShortMessage" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="144dp"
+        android:text="Enter The Sex :"
+        android:textAlignment="gravity"
+        android:textColor="#266FA4"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/Sex"
+        android:layout_width="125dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="94dp"
+        android:digits="F || M"
+        android:ems="1"
+        android:maxLength="1"
+        android:hint="F/M"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="203dp"
+        android:autoText="true"
+        android:inputType="text"
+        android:text="Enter Base Salary :"
+        android:textColor="#4281AF"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/Base_Sal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="1000.0"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="274dp"
+        android:text="Enter Total Sales :"
+        android:textColor="#4281AE"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/TotalSal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="6dp"
+        android:ems="10"
+        android:hint="10.0"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="229dp"
+        android:text="Enter Commission Rate :"
+        android:textColor="#4C87B1"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/ComRate"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="233dp"
+        android:ems="10"
+        android:hint="20.0"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="171dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="179dp"
+        android:text="Enter Net Salary :"
+        android:textColor="#598DB5"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:id="@+id/NetSal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="182dp"
+        android:ems="10"
+        android:hint="5000.0"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/mod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:text="INSERT" />
+
+</RelativeLayout>
